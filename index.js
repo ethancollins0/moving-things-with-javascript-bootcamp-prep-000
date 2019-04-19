@@ -17,8 +17,6 @@ function moveDodgerLeft() {
   }
 })
 
-
-
 function moveDodgerRight() {
 
 }
