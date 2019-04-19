@@ -2,12 +2,6 @@ const app = "I don't do much."
 
 var dodger = document.getElementById('dodger')
 
-  document.addEventListener('keydown', function(e) {
-  if (e.which === 37) {
-    moveDodgerLeft()
-  }
-})
-
 function moveDodgerLeft() {
   var leftNumbers = dodger.style.left.replace('px', '')
   var left = parseInt(leftNumbers, 10)
@@ -16,6 +10,14 @@ function moveDodgerLeft() {
     dodger.style.left = `${left - 1}px`
   }
 }
+
+  document.addEventListener('keydown', function(e) {
+  if (e.which === 37) {
+    moveDodgerLeft()
+  }
+})
+
+
 
 function moveDodgerRight() {
 
