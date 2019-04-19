@@ -18,7 +18,7 @@ function moveDodgerLeft() {
 })
 
 function moveDodgerRight() {
-
+  var rightNumbers = dodger.style.right.replace('px', '')
 }
 
 document.addEventListener('keydown', function(e) {
