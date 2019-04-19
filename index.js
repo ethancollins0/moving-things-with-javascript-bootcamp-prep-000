@@ -15,3 +15,9 @@ document.addEventListener('keydown', function(e) {
     moveDodgerLeft()
   }
 })
+
+document.addEventListener('keydown', function(e) {
+  if (e.which === 39) {
+    moveDodgerLeft()
+  }
+})
