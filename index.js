@@ -1,7 +1,7 @@
 const app = "I don't do much."
 
 var dodger = document.getElementById('dodger')
-dodger.style.left = '0px'
+dodger.style.left = '400px'
 
 function moveDodgerLeft() {
   var leftNumbers = dodger.style.left.replace('px', '')
